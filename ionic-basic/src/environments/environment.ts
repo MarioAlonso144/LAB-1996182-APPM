@@ -4,6 +4,7 @@
 
 export const environment = {
   production: false,
+  firebaseConfig : {
   apiKey: "AIzaSyDt7SyTJmtgIp8xeqlQ1-q3Fxbt9d7o1BA",
   authDomain: "ionic-base-8fc02.firebaseapp.com",
   projectId: "ionic-base-8fc02",
@@ -11,6 +12,7 @@ export const environment = {
   messagingSenderId: "118567094053",
   appId: "1:118567094053:web:0936a67293fb3eb961fccc",
   measurementId: "G-B50G0XG0PE"
+  }
 };
 
 /*
