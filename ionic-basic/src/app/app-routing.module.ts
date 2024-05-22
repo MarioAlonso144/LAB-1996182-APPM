@@ -43,7 +43,7 @@ const routes: Routes = [
         loadChildren: () => import('./destinos-api/destinos-api.module').then( m => m.DestinosApiPageModule)
       },
     ],
-    canActivate: [GuardianGuard]
+    canActivate: [GuardianGuard],
   },
 
   {

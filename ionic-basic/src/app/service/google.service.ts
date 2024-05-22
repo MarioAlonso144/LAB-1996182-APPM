@@ -6,7 +6,7 @@ declare var google: any;
   providedIn: 'root'
 })
 export class GoogleService {
-  apikey: string = environment.apiKeyMaps;
+  apikey: string = environment.apikeyMaps;
   mapsloaded: boolean = false;
 
   constructor() { }
