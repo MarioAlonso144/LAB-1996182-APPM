@@ -74,7 +74,8 @@ export class AuthFirebaseService {
   updateLugares(id: any, lugar: any): Promise<any>{
     const docRef = doc(this.db, 'lugar', id);
     const lugarAux = {nombre: lugar.nombre,
-      ubicacion:{latitud:'', longitud:''}
+      latitud: lugar.latitud,
+      longitud: lugar.longitud
     };
 
     return setDoc(docRef, lugarAux);

@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { DestinosPageRoutingModule } from './destinos-routing.module';
 
 import { DestinosPage } from './destinos.page';
+import { GoogleMapsComponent } from '../google-maps/google-maps.component';
 
 @NgModule({
   imports: [
@@ -16,6 +17,6 @@ import { DestinosPage } from './destinos.page';
     DestinosPageRoutingModule,
     ReactiveFormsModule
   ],
-  declarations: [DestinosPage]
+  declarations: [DestinosPage, GoogleMapsComponent]
 })
 export class DestinosPageModule {}
