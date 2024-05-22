@@ -12,7 +12,8 @@ const routes: Routes = [
       },
       {
         path: 'alumnos',
-        loadChildren: () => import('./alumnos/alumnos.module').then( m => m.AlumnosPageModule)
+        loadChildren: () => import('./alumnos/alumnos.module').then( m => m.AlumnosPageModule),
+        canActivate:[GuardianGuard]
       },
       {
         path: 'inicio',
